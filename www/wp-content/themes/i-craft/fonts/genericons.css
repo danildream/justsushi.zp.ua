@@ -28,10 +28,10 @@
  */
 [class*="genericon"] {
 	display: inline-block;
-	width: 40px;
-	height: 40px;
+	width: 16px;
+	height: 16px;
 	-webkit-font-smoothing: antialiased;
-	font-size: 40px;
+	font-size: 16px;
 	line-height: 1;
 	font-family: 'Genericons';
 	text-decoration: inherit;
