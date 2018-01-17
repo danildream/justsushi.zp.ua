@@ -526,7 +526,7 @@ article a,
 .error404 .page-title:before {
 	-webkit-font-smoothing: antialiased;
 	display: inline-block;
-	font: normal 16px/1 Genericons;
+	font: normal 40px/1 Genericons;
 	vertical-align: text-bottom;
 }
 
@@ -4119,7 +4119,8 @@ nav.navigation .nav-links a:visited {
 .header-iconwrap {
 	display: block;
 	position:absolute;
-	right:40px;
+	right:10px;
+	width: 80px;
 }
 
 .header-icons.woocart {
@@ -4128,8 +4129,8 @@ nav.navigation .nav-links a:visited {
 
 .header-icons.woocart > a {
 	display: block;
-	padding-top: 8px;
-	padding-bottom: 38px;
+	padding-top: 10px;
+	padding-bottom: 0px;
 	line-height: 1;
 	position: relative;
 }
@@ -4150,7 +4151,7 @@ nav.navigation .nav-links a:visited {
 	display: block;
 	position: absolute;
 	right: 0px;
-	top: 18px;
+	top: 50px;
 	border: 1px solid #d26604;
 	width: 280px;
 	height: auto;
@@ -4370,14 +4371,14 @@ nav.navigation .nav-links a:visited {
 }
 
 .header-iconwrap .header-icons.woocart > a .cart-counts {
-	height: 40px;
-	width: 40px;
-	line-height: 20px;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
 	text-align: center;
 	position: absolute;
-	left: 16px;
-	top: 50%;
-	margin-top: -20px;
+	left: 40px;
+	top: 20%;
+	/* margin-top: 20px; */
 	background-color: #d26604;
 	color: #FFF;
 	border-radius: 10px;
