@@ -431,7 +431,7 @@ textarea {
 }
 
 table {
-	border-bottom: 1px solid #ededed;
+	
 	border-collapse: collapse;
 	border-spacing: 0;
 	line-height: 2;
@@ -442,7 +442,7 @@ table {
 caption,
 th,
 td {
-	font-weight: normal;
+	font-weight: bolder;
 	text-align: left;
 }
 
@@ -604,10 +604,13 @@ article a,
 button,
 input,
 textarea {
-	border: 1px solid #c7c7c7;
+	border: 2px solid #4d2200;
 	font-family: inherit;
 	padding: 5px;
 	border-radius: 3px;
+	background: none;
+	font-weight: 700;
+	
 }
 
 input,
@@ -617,8 +620,10 @@ textarea {
 
 input:focus,
 textarea:focus {
-	border: 1px solid #d26604;
+	border: 3px solid #d26604;
 	outline: 0;
+	background-color: #4d2200;
+	color: #fff;
 }
 
 /* Buttons */
@@ -807,8 +812,8 @@ background: rgba(210, 102, 4, 0.2);
 	max-width: 1264px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 48px;
-	padding-bottom: 48px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
 .site-main .sidebar-container {
@@ -2144,9 +2149,15 @@ body.onecol-blog .site-content .blog-columns .post {
 .page .site-content {
 }
 
-.entry-content a,
-.comment-content a {
-	color: #d26604;
+
+.entry-meta a, .entry-content a, .comment-content a, .entry-content a:visited {
+	color: #fff;
+}
+
+.cart_item  > td.product-name > a {
+    color: #fff;
+	font-size: 16px;
+	font-weight: 700;
 }
 
 .entry-content a:hover,
@@ -4282,8 +4293,8 @@ nav.navigation .nav-links a:visited {
     -webkit-border-radius:4px;
     -moz-border-radius:4px;
     border-radius:3px;
-    background: #f8f8f8;
-    color:#888;
+    background: #d26604;
+    color:#4d2200;
     border:none;
     outline:none;
     display: inline-block;
@@ -4294,21 +4305,21 @@ nav.navigation .nav-links a:visited {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-    .woocommerce-ordering {padding-right:18px}
+    .woocommerce-ordering {padding-right:23px}
 }
 
 .woocommerce-ordering {position:relative}
 .woocommerce-ordering:after {
     content:'<>';
     font:11px "Consolas", monospace;
-    color:#aaa;
+    color:#4d2200;
     -webkit-transform:rotate(90deg);
     -moz-transform:rotate(90deg);
     -ms-transform:rotate(90deg);
     transform:rotate(90deg);
     right:8px; top:2px;
     padding:0 0 2px;
-    border-bottom:1px solid #ddd;
+    border-bottom:1px solid #4d2200;
     position:absolute;
     pointer-events:none;
 }
@@ -4316,7 +4327,8 @@ nav.navigation .nav-links a:visited {
     content:'';
     right:6px; top:0px;
     width:20px; height:20px;
-    background:#f8f8f8;
+	color: #4d2200;
+    background:#d26604;
     position:absolute;
     pointer-events:none;
     display:block;
@@ -4431,7 +4443,7 @@ nav.navigation .nav-links a:visited {
 .navbar .widget_shopping_cart_content > p.buttons > a.button.wc-forward {
 	padding: 6px 10px;
 	border: 0px solid #c8bfc6;
-	color: #4d2200;
+	color: #fff;
 	text-decoration: none;
 	font-size: 10px;
 	text-transform: uppercase;
@@ -4441,9 +4453,14 @@ nav.navigation .nav-links a:visited {
 	transition-delay: 0s;	
 }
 
+.widget_shopping_cart_content > p.buttons > a.button.wc-forward {
+color: #fff;
+}
+
+
 .navbar .widget_shopping_cart_content > p.buttons > a.button.wc-forward:hover {
 	color: #FFF;
-	background-color: #555;
+	background-color: #4d2200;
 }
 
 .woocommerce .products .product-category a > h3 {
@@ -5108,7 +5125,7 @@ nav.navigation .nav-links a:visited {
 {
   	font-size: 3em;
 }
-
+ 
  
 /**/
 
