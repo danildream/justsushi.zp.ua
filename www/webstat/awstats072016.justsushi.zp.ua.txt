@@ -1,0 +1,405 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201607 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.justsushi.zp.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1995                
+POS_TIME 2685                
+POS_VISITOR 9064                
+POS_DAY 10162               
+POS_DOMAIN 3460                
+POS_LOGIN 3695                
+POS_ROBOT 3850                
+POS_WORMS 4086                
+POS_EMAILSENDER 4217                
+POS_EMAILRECEIVER 4360                
+POS_SESSION 10742               
+POS_SIDER 10949               
+POS_FILETYPES 4495                
+POS_DOWNLOADS 4789                
+POS_OS 4857                
+POS_BROWSER 4964                
+POS_SCREENSIZE 5233                
+POS_UNKNOWNREFERER 5307                
+POS_UNKNOWNREFERERBROWSER 5703                
+POS_ORIGIN 5785                
+POS_SEREFERRALS 5926                
+POS_PAGEREFS 6070                
+POS_SEARCHWORDS 6245                
+POS_KEYWORDS 6397                
+POS_MISC 2346                
+POS_ERRORS 6456                
+POS_CLUSTER 3551                
+POS_SIDER_404 6620                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160801000409 8620 2829038 10398437897452
+FirstTime 20160707141650
+LastTime 20160731234917
+LastUpdate 20160801051108 8620 0 8619 0 0
+TotalVisits 65                  
+TotalUnique 21                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 26                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1783 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 163 2924 5066819 7 93 219527
+1 9 28 64738 4 10 19857
+2 0 0 0 0 0 0
+3 0 0 0 3 27 313620
+4 0 0 0 3 27 313580
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 2 22 431529 1 1 196
+8 0 0 0 0 0 0
+9 4 6 481929 2 2 392
+10 25 243 8139115 2 19 156479
+11 54 317 4282921 5 39 45352
+12 432 5545 19673243 30 207 86050
+13 584 7988 26196885 46 307 137898
+14 1050 11194 61031326 87 470 149147
+15 608 4669 28498553 59 272 84740
+16 699 4944 47071960 24 152 370045
+17 750 4369 28018404 40 157 138223
+18 243 1943 9311581 34 161 214458
+19 57 776 38802699 7 49 94422
+20 2 11 73406 1 2 384
+21 117 1743 8437911 25 86 58932
+22 200 2902 4990199 35 118 42472
+23 247 4006 4231506 57 202 178775
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 5246 53630 294804724
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+wordpress 105 37070 20160731233509 0
+yandex 53 635080 20160731045634 0
+surveybot 1 501 20160729111804 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 17561 49767962 0 0
+png 4667 27192325 0 0
+ttf 3 180520 0 0
+woff2 297 1554569 0 0
+woff 712 543176 0 0
+php 2318 36669872 0 0
+html 1916 19367575 0 0
+js 21464 25530015 0 0
+jpg 4575 133818173 0 0
+gif 56 161347 0 0
+svg 61 19190 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 1 0 501
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 444
+linuxandroid 702
+winnt 67
+Unknown 364
+linux 6
+win7 52047
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 11
+chrome51.0.2704.81 578
+chrome51.0.2704.103 5742
+safari9.0 443
+chrome51.0.2704.106 45566
+chrome42.0.2311.135 6
+chrome53.0.2785.21 60
+chrome44.4.2403.3 113
+opera9.80 364
+firefox47.0 693
+firefox3.6.13 1
+chrome30.0.0.0 64
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Opera/9.80_(Android;_Opera_Mini/17.0.2211/37.8743;_U;_ru)_Presto/2.12.423_Version/12.16 20160716195254
+Opera/9.80_(Android;_Opera_Mini/18.0.2254/37.8762;_U;_ru)_Presto/2.12.423_Version/12.16 20160726194339
+Opera/9.80_(Android;_Opera_Mini/17.0.2211/37.8762;_U;_ru)_Presto/2.12.423_Version/12.16 20160726191357
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 191 197
+From1 0 0
+From2 0 0
+From3 2 2
+From4 5053 53431
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://vk.com/away.php 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 4 7814
+302 309 210157
+503 3 1683
+206 5 521729
+500 35 12672
+301 2 1570
+404 100 861069
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 20
+/product/%d1%81%d1%83%d1%88%d0%b8-%d1%81-%d0%bb%d0%be%d1%81%d0%be%d1%81%d0%b5%d0%bc/URL 3 http://justsushi.zp.ua/product/%d1%81%d1%83%d1%88%d0%b8-%d1%81-%d0%bb%d0%be%d1%81%d0%be%d1%81%d0%b5%d0%bc/URL
+/product/\xf1\xf3\xf8\xe8-\xf1-\xeb\xee\xf1\xee\xf1\xe5\xec/ 1 -
+/wp-admin/images/gray-grad.png 8 http://justsushi.zp.ua/wp-admin/admin.php
+/instagram.com/just_sushi_zp 1 http://justsushi.zp.ua/
+/Menu_fon.jpg 25 http://justsushi.zp.ua/wp-content/themes/i-craft/style.css
+/product-category/%d0%bc%d0%b5%d0%bd%d1%8e/img/inst_logo.png 2 http://justsushi.zp.ua/product-category/%d0%bc%d0%b5%d0%bd%d1%8e/
+/product/%d1%81%d1%83%d1%88%d0%b8-%d1%81-%d0%bb%d0%be%d1%81%d0%be%d1%81%d0%b5%d0%bc/images/dzen.png 7 http://justsushi.zp.ua/product/%d1%81%d1%83%d1%88%d0%b8-%d1%81-%d0%bb%d0%be%d1%81%d0%be%d1%81%d0%b5%d0%bc/
+/product-category/%d0%bc%d0%b5%d0%bd%d1%8e/img/vk_logo.png 2 http://justsushi.zp.ua/product-category/%d0%bc%d0%b5%d0%bd%d1%8e/
+/wp-content/themes/i-craft/fon2.jpg 1 http://justsushi.zp.ua/wp-content/themes/i-craft/style.css
+/wp-admin/undefined 1 http://justsushi.zp.ua/wp-admin/themes.php
+/instagram.com/instagram.com/just_sushi_zp 1 http://justsushi.zp.ua/instagram.com/just_sushi_zp
+/product/%D1%81%D1%83%D1%88%D0%B8-%D1%81-%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC/images/dzen.png 3 http://justsushi.zp.ua/product/%D1%81%D1%83%D1%88%D0%B8-%D1%81-%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC/
+/wp-content/plugins/templatesnext-toolkit/css/grabbing.png 3 http://justsushi.zp.ua/wp-content/plugins/templatesnext-toolkit/css/owl.carousel.css
+/product-category/%d0%bc%d0%b5%d0%bd%d1%8e/images/dzen.png 19 http://justsushi.zp.ua/product-category/%d0%bc%d0%b5%d0%bd%d1%8e/
+/images/tel_logo.png 1 http://justsushi.zp.ua/
+/images/email_logo.png 1 http://justsushi.zp.ua/
+/product-category/%d0%bc%d0%b5%d0%bd%d1%8e/%d1%81%d1%83%d1%88%d0%b8/images/dzen.png 2 http://justsushi.zp.ua/product-category/%d0%bc%d0%b5%d0%bd%d1%8e/%d1%81%d1%83%d1%88%d0%b8/
+/images/dzen.png 17 http://justsushi.zp.ua/
+/URL 1 http://justsushi.zp.ua/
+/product/%d1%81%d0%b8%d1%82%d0%b8/images/dzen.png 1 http://justsushi.zp.ua/product/%d1%81%d0%b8%d1%82%d0%b8/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 26
+46.119.214.84 4849 49620 182949396 20160731170418
+91.228.236.128 222 2190 41350025 20160729162220
+188.163.97.105 62 576 20981202 20160731234917
+46.133.224.32 23 216 2766956 20160731183931
+91.214.30.105 21 75 1879044 20160730191007
+93.170.0.195 16 69 3845209 20160718110623
+91.214.31.34 13 243 11248698 20160726210745
+91.214.31.36 9 82 2509825 20160729191048
+82.145.219.141 4 127 6983015 20160726191357
+141.0.15.226 4 68 3513599 20160714215520
+91.214.30.227 3 11 52555 20160730223533
+46.133.217.133 2 54 2835964 20160710191427
+91.214.30.218 2 11 73406 20160730205918
+195.211.23.210 0 1 153079 
+195.211.23.212 0 1 64177 
+195.211.23.211 0 1 105913 
+82.145.217.134 1 43 2559844 20160716195249
+195.211.23.214 0 1 18885 
+195.211.23.208 1 1 7851 20160711103313
+141.0.14.231 2 62 4138152 20160726191038
+82.145.211.174 2 64 3489255 20160726194339
+91.215.90.176 4 67 3075486 20160711103349
+195.211.23.213 0 1 77197 
+178.210.197.17 3 43 108498 20160730210436
+46.133.132.41 2 2 9620 20160731005401
+199.30.228.149 1 1 7873 20160712130701
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20160707 2 2 3998 2
+20160708 989 5474 35396228 1
+20160709 111 734 2704507 1
+20160710 249 1985 11732112 3
+20160711 55 393 16434283 8
+20160712 1 1 7873 1
+20160714 4 68 3513599 1
+20160715 185 1406 18693913 1
+20160716 50 542 3159488 3
+20160717 247 1709 12438030 3
+20160718 20 125 7581319 2
+20160719 5 107 7384779 1
+20160720 3 9 8849 1
+20160722 3 54 8849 1
+20160726 388 3993 48724703 8
+20160727 7 86 3886321 2
+20160728 1256 16488 57093622 5
+20160729 664 7679 27133648 8
+20160730 469 4486 18562663 8
+20160731 538 8289 20335940 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 14
+5mn-15mn 4
+0s-30s 26
+2mn-5mn 4
+30s-2mn 8
+15mn-30mn 6
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 71
+/wp-admin/admin-ajax.php 1271 2548575 0 8
+/ 769 7178298 45 25
+/wp-content/themes/i-craft/fonts/WooCommerce.woff 645 200976 0 5
+/product-category/%d0%bc%d0%b5%d0%bd%d1%8e/ 481 4816536 1 2
+/wp-content/plugins/unyson/framework/static/libs/font-awesome/fonts/fontawesome-webfont.woff2 295 1418940 0 0
+/wp-admin/theme-editor.php 239 3829819 2 2
+/wp-admin/load-scripts.php 181 13768844 0 0
+/wp-admin/themes.php 102 1659676 0 0
+/product/%d1%81%d1%83%d1%88%d0%b8-%d1%81-%d0%bb%d0%be%d1%81%d0%be%d1%81%d0%b5%d0%bc/ 90 862874 1 5
+/wp-admin/admin.php 82 1436211 0 0
+/wp-admin/post-new.php 13 583581 0 0
+/wp-admin/load-styles.php 45 2768615 0 0
+/wp-admin/index.php 6 46525 0 0
+/wp-content/plugins/unyson/framework/core/components/extensions/manager/static/unyson-font-icon/fonts/icomoon.woff 25 7632 0 1
+/wp-content/themes/storefront/assets/fonts/fontawesome-webfont.woff2 1 70947 0 0
+/wp-admin/async-upload.php 28 31874 0 0
+/wp-admin/install.php 2 4832 0 0
+/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 4 68816 0 0
+/wp-content/plugins/unyson/framework/static/libs/unycon/fonts/Unycon.ttf 3 180520 0 0
+/product-category/%d0%bc%d0%b5%d0%bd%d1%8e/%d1%81%d0%b5%d1%82%d1%8b-%d0%bd%d0%b0%d0%b1%d0%be%d1%80%d1%8b/ 12 105981 0 0
+/wp-admin/ 23 409310 6 0
+/product/%D1%81%D1%83%D1%88%D0%B8-%D1%81-%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D0%B5%D0%BC/ 15 89776 4 3
+/wp-admin/post.php 40 1759255 0 0
+/2016/07/08/%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80/ 9 96780 0 0
+/wp-admin/plugins.php 30 441572 0 0
+/product-category/%d0%bc%d0%b5%d0%bd%d1%8e/%d1%80%d0%be%d0%bb%d0%bb%d1%8b/ 8 69549 0 0
+/category/blog/ 21 196095 0 0
+/main/ 4 39827 0 0
+/product-category/%d0%bc%d0%b5%d0%bd%d1%8e/%d1%81%d1%83%d1%88%d0%b8/ 47 441867 0 1
+/wp-admin/widgets.php 13 292551 0 0
+/wp-admin/about.php 1 11375 0 0
+/wp-admin/nav-menus.php 27 874073 0 0
+/wp-admin/term.php 13 332433 0 0
+/product/%D1%81%D0%B8%D1%82%D0%B8/ 2 13309 0 0
+/fon2-5/ 2 21248 0 0
+/product-category/%D0%BC%D0%B5%D0%BD%D1%8E/ 13 78233 1 3
+/product/%d1%81%d0%b0%d0%bb%d0%bc%d0%be%d0%bd-%d1%87%d1%83%d0%ba%d0%b0/ 61 716272 0 0
+/wp-content/plugins/unyson/framework/static/libs/font-awesome/fonts/fontawesome-webfont.woff 3 178152 0 0
+/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff 31 85056 0 0
+/wp-admin/customize.php 72 4183630 0 0
+/wp-login.php 10 22743 1 0
+/%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%8b/ 22 204205 0 0
+/wp-admin/options-reading.php 2 20729 0 0
+/wp-admin/plugin-editor.php 5 65657 0 0
+/shop/ 53 475495 1 2
+/product/%d1%81%d0%b8%d1%82%d0%b8/ 68 712688 1 2
+/sample-page/ 13 117340 0 0
+/fon2-4/ 3 31899 0 0
+/wp-admin/theme-install.php 21 278157 0 0
+/my-account/ 1 8035 0 0
+/checkout/ 24 411730 0 0
+/fon2-3/ 1 10637 0 0
+/wp-admin/edit-tags.php 12 331641 0 0
+/cart/ 57 851164 0 0
+/category/akcii/ 37 297345 0 0
+/wp-admin/plugin-install.php 16 353299 0 0
+/wp-admin/options-permalink.php 1 11008 0 0
+/wp-admin/options-writing.php 1 9978 0 0
+/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b/ 33 711106 2 5
+/wp-admin/update.php 29 232897 0 0
+/%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8/ 4 34704 0 1
+/%d0%bd%d0%b0%d1%88%d0%b8-%d0%bf%d0%b0%d1%80%d1%82%d0%bd%d0%b5%d1%80%d1%8b/ 19 167591 0 0
+/wp-admin/edit.php 27 390469 0 0
+/menu/ 1 9224 0 0
+/wp-content/themes/namaste-lite/fonts/fontawesome-webfont.woff2 1 64682 0 0
+/wp-admin/options-discussion.php 2 23187 0 0
+/wp-admin/options-general.php 9 156253 0 0
+/wp-content/plugins/unyson/framework/extensions/shortcodes/extensions/page-builder/extensions/editor-shortcodes/static/fonts/fw-icomoon.woff 4 2544 0 0
+/%d1%83%d1%81%d0%bb%d0%be%d0%b2%d0%b8%d1%8f-%d0%b4%d0%be%d1%81%d1%82%d0%b0%d0%b2%d0%ba%d0%b8/ 21 170396 0 0
+/wp-admin/update-core.php 18 200413 0 0
+/product-category/%d0%bc%d0%b5%d0%bd%d1%8e/%d0%bd%d0%b0%d0%bf%d0%b8%d1%82%d0%ba%d0%b8/ 2 18061 0 0
+END_SIDER

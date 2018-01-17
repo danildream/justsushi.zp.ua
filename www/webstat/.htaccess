@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/justsushi.zp.ua/webstat"
+AuthUserFile /var/www/justsushi/data/etc/72104513.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
