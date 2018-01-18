@@ -942,9 +942,9 @@ a.button {
 .woocommerce-page input.button.added:before{
 	position:absolute;
 	height:16px;
-	width:16px;
-	top:.35em;
-	right:-26px;
+	top: .6em;
+    right: 15px;
+	
 	text-indent:0;
 	font-family:WooCommerce;
 	content:"\e017";
@@ -2171,15 +2171,30 @@ a.button {
 	line-height:1em;
 }
 
+
+	
+.woocommerce form .form-row textarea,
+.woocommerce-page form .form-row textarea::-webkit-input-placeholder {color:#4d2200;}
+.woocommerce form .form-row textarea,
+.woocommerce-page form .form-row textarea::-moz-placeholder          {color:#4d2200;}/* Firefox 19+ */
+.woocommerce form .form-row textarea,
+.woocommerce-page form .form-row textarea:-moz-placeholder           {color:#4d2200;}/* Firefox 18- */
+.woocommerce form .form-row textarea,
+.woocommerce-page form .form-row textarea:-ms-input-placeholder      {color:#4d2200;}
+
 .woocommerce form .form-row textarea,
 .woocommerce-page form .form-row textarea{
-	height:6em;
+	height:8em;
+	overflow-y: hidden;
+    overflow-x: hidden;
 	line-height:1.5em;
 	display:block;
 	-moz-box-shadow:none;
 	-webkit-box-shadow:none;
 	box-shadow:none;
+	color: #fff;
 }
+
 
 .woocommerce form .form-row.validate-required.woocommerce-invalid .chosen-drop,
 .woocommerce form .form-row.validate-required.woocommerce-invalid .chosen-single,
