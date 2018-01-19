@@ -837,7 +837,7 @@ background: rgba(210, 102, 4, 0.2);
 
 .nx-leftsidebar .site-main .sidebar-inner {
 	font-weight: bold;
-	font-size: 120%;
+	font-size: 150%;
     background: rgba(210, 102, 4, 0.2);
 	background-image: url(http://justsushi.zp.ua/img/woodtext.png);
 	padding: 0px 30px;
@@ -846,7 +846,7 @@ background: rgba(210, 102, 4, 0.2);
 .nx-leftsidebar.sidebar .site-content {
 	float: right;
 	background: rgba(210, 102, 4, 0.2);
-	padding: 15px;
+	padding: 1%;
 }
 
 .widget_product_search form#searchform input#s {
@@ -983,16 +983,99 @@ background: rgba(210, 102, 4, 0.2);
 
 .headerwrap2 {
 	display: block;
-	min-height: 220px;
+	min-height: 210px;
 	max-width: 1300px;
 	margin: 0px auto;
 	
 }
 
-.headerwrap2 .telefon  {
- 
-	float:left; width: 53%; color: #4f2100;   display: block;   font-weight: bold; font-size: 160%; margin-left: 2%;
+.js-header {
+    height: 230px;
+    
+    font-weight: bold;
+    font-size: 200%;
 }
+
+.js-logo2 {
+    display: none;
+}
+
+.js-title {
+    display: block;
+	margin-top: 10px;
+
+}
+
+.js-info {
+    display: block;
+    
+
+}
+
+.js-info::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.js-contacts {
+    float: left;
+    width: 260px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.js-work-time {
+    float: right;
+    width: 260px;
+	margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.js-city {
+    float: right;
+    margin-right: 10px;
+    font-weight: normal;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+@media (max-width: 780px) {
+    .js-work-time {
+        float: left;
+    }
+}
+
+@media (max-width: 520px) {
+    .js-logo {
+        display: none;
+    }
+
+    .js-logo2 {
+        display: block;
+        text-align: center;
+    }
+
+    .js-title {
+        display: block;
+        text-align: center;
+    }
+
+     .js-work-time {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .js-contacts {
+        float: none;
+        margin: 0 auto;
+    }
+}
+
 
 .telefon {
 
@@ -1120,10 +1203,11 @@ background: rgba(210, 102, 4, 0.2);
 	display: block;
 	float: left;
 	margin: 0 auto;
-	margin-left: 40px;
+	margin-left: 30px;
 	min-height: 56px;
 	position: relative;
 	font-weight; bold;
+	font-size: 1.2em;
 }
 
 ul.nav-container,
@@ -1138,7 +1222,7 @@ text-shadow: 2px 2px #dabb7b;
 	display: inline-block;
 	position: relative;
 	padding: 0px 10px;
-	margin-left: 10px;
+	margin-left: 0px;
 	
 }
 
@@ -2158,6 +2242,15 @@ body.onecol-blog .site-content .blog-columns .post {
     color: #fff;
 	font-size: 16px;
 	font-weight: 700;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.cart_item  > td.product-name > a:hover {
+    color:#fff1d7;
+	font-size: 16px;
+	font-weight: 700;
+	text-shadow: 1px 1px 0px #000;
+	text-decoration: none;
 }
 
 .entry-content a:hover,
@@ -2287,7 +2380,7 @@ footer.entry-meta {
     height: 60px;
     width: 100%;
     text-align: center;
-    background: rgba(210, 102, 4, 0.2);
+    /* background: rgba(210, 102, 4, 0.2); */
 	}
 
 
@@ -2303,7 +2396,7 @@ footer.entry-meta {
 .titlebar h1 {
 	color: #4d2200;
 	line-height: 30px;
-	margin: 20px;
+	margin: 30px;
 	text-align: center;
 	font-weight: bold;
 }
@@ -4142,6 +4235,7 @@ nav.navigation .nav-links a:visited {
 	display: block;
 	padding-top: 10px;
 	padding-bottom: 0px;
+	padding-left: 20px;
 	line-height: 1;
 	position: relative;
 }
@@ -4178,6 +4272,12 @@ nav.navigation .nav-links a:visited {
     background-image: url(http://justsushi.zp.ua/img/woodtext.png);
 	padding: 0px 30px;
 	
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	transition-delay: 0.2s;
+
+		
 }
 
 .fixeddiv .header-icons.woocart .cartdrop.widget_shopping_cart.nx-animate {
@@ -4187,6 +4287,12 @@ nav.navigation .nav-links a:visited {
 
 .header-icons.woocart:hover .cartdrop.widget_shopping_cart.nx-animate {
 	visibility: visible;
+	
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+	transition-delay: 0.1s;
+	
 }
 
 
@@ -4283,6 +4389,13 @@ nav.navigation .nav-links a:visited {
 	background: #d4b37a;
 	padding: 0.7em;
 	background: rgba(210, 102, 4, 0.2);
+	
+}
+
+.nxowoo-box:hover {
+	transform: scale(1.05,1.05);
+	transition: all 1s;
+	transition-timing-function: ease-in-out;
 }
 
 
@@ -4335,12 +4448,12 @@ nav.navigation .nav-links a:visited {
 }
 
 .product .summary.entry-summary > form.cart > button {
-	border: 1px solid #999;
+	
 	background-color: #FFF;
 }
 
 .product .summary.entry-summary > form.cart > button:hover {
-	border: 1px solid #555;
+	
 	background-color: #555;
 }
 
@@ -4383,13 +4496,13 @@ nav.navigation .nav-links a:visited {
 }
 
 .header-iconwrap .header-icons.woocart > a .cart-counts {
-	height: 30px;
-	width: 30px;
-	line-height: 30px;
+	height: 25px;
+	width: 25px;
+	line-height: 25px;
 	text-align: center;
 	position: absolute;
-	left: 40px;
-	top: 20%;
+	left: 60px;
+	top: 10%;
 	/* margin-top: 20px; */
 	background-color: #d26604;
 	color: #FFF;

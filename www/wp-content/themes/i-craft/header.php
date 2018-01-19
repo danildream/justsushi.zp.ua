@@ -94,31 +94,41 @@ global $post;
 		
 <div class="headerwrap2">
 
-	
-	<a href="http://justsushi.zp.ua/">
-	<img src="http://justsushi.zp.ua/img/logo.png" border="0" alt="Бесплатная доставка суши и роллов | Запорожье" width="230" height="230"  align="left">
-	</a>
-	
+	<div class="js-header">
+                <div class="js-logo">
+                    <a href="http://justsushi.zp.ua/">
+                        <img src="http://justsushi.zp.ua/img/logo.png" border="0" alt="Бесплатная доставка суши и роллов | Запорожье" width="230" height="230" align="left">
+                    </a>
+                </div>
 
-		<div  style="float:left; color: #4f2100;   display: block;  font-weight: bold; font-size: 300%; margin-left: 2%; margin-right:2%; text-align: center; ">
-			<h1>JUST SUSHI | Бесплатная доставка суши и роллов</h1>
-		</div>
+                <div class="js-logo2">
+                    <a href="http://justsushi.zp.ua/">
+                        <img src="http://justsushi.zp.ua/img/logo.png" border="0" alt="Бесплатная доставка суши и роллов | Запорожье" width="230" height="230" align="center">
+                    </a>
+                </div>
 
-		<div  class="telefon">
-			<img src="http://justsushi.zp.ua/img/tel_logo.png" alt="Звоните"> 095 89 16 999 <br>
-			<img src="http://justsushi.zp.ua/img/tel_logo.png" alt="Звоните"> 063 29 58 999	<br>
-			<img src="http://justsushi.zp.ua/img/email_logo.png" alt="Пишите"> justsushi@mail.ru
-		</div>
+                <div class="js-title">JUST SUSHI | Бесплатная доставка суши и роллов</div>
 
-	<div  style="float:left;  text-align: center; color: #4f2100;   display: block;   font-weight: bold;    font-size: 150%; margin-right: 2%;  margin-bottom: 0px;">
-	  	Работаем с 11.00 до 22.00 <br>
-		<div style="margin-top: 5px;">
-			<a href="https://vk.com/just_sushi" target="_blank"><img src="http://justsushi.zp.ua/img/vk_logo.png" alt="Just Sushi в Контакте"></a>
-			<a href="https://www.instagram.com/just_sushi_zp/" target="_blank"><img src="http://justsushi.zp.ua/img/inst_logo.png" alt="Just Sushi в Инстанрам"></a> 
-		</div>
+                <div class="js-info">
+                    <div class="js-contacts">
+                        <img src="http://justsushi.zp.ua/img/tel_logo.png" alt="Звоните"> 095 89 16 999 <br>
+                        <img src="http://justsushi.zp.ua/img/tel_logo.png" alt="Звоните"> 063 29 58 999 <br>
+                        <img src="http://justsushi.zp.ua/img/email_logo.png" alt="Пишите"> justsushi@mail.ru
+                    </div>
 
-	</div>  
-			<div style="padding-right: 2%; width: 70%; float:right;  text-align: right; font-weight: bold;  font-size: 110%; color: #4f2100;">г.Запорожье</div>    
+                    <div class="js-work-time">
+                        Работаем с 11.00 до 22.00
+                        <div style="margin-top: 5px;">
+                            <a href="https://vk.com/just_sushi" target="_blank"><img src="http://justsushi.zp.ua/img/vk_logo.png" alt="Just Sushi в Контакте"></a>
+                            <a href="https://www.instagram.com/just_sushi_zp/" target="_blank"><img src="http://justsushi.zp.ua/img/inst_logo.png" alt="Just Sushi в Инстанрам"></a>
+                        </div>
+
+                    </div>
+                </div>
+
+               <div class="js-city">г.Запорожье</div>
+
+            </div>  
 	
         
 </div>
