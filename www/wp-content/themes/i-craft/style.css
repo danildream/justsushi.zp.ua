@@ -172,35 +172,35 @@ h6 {
 
 h1 {
 	font-size: 2rem;
-	margin: 18px 0;
+	margin: 10px 0;
 }
 
 h2 {
 	font-size: 25px;
-	margin: 18px 0;
+	margin: 10px 0;
 
 }
 
 h3 {
 	font-size: 20px;
-	margin: 18px 0;
+	margin: 10px 0;
 
 }
 
 h4 {
 	font-size: 18px;
-	margin: 16px 0;
+	margin: 10px 0;
 
 }
 
 h5 {
 	font-size: 16px;
-	margin: 14px 0;
+	margin: 10px 0;
 }
 
 h6 {
 	font-size: 14px;
-	margin: 12px 0;
+	margin: 10px 0;
 }
 
 address {
@@ -1906,8 +1906,10 @@ ul.nav-container ul a:hover,
 	margin: 0 auto;
 	width: 100%;
 	text-wrap: normal;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: bold;
+	text-align: center;
+	padding: 10px;
 	
 }
 
@@ -2020,7 +2022,7 @@ ul.nav-container ul a:hover,
 
 .site-content .post .meta-img {
 	float: none;
-	margin-top: 8px;
+	margin-top: 0px;
 	width: 100%;
 	padding-right: 0px;
 }
@@ -2047,10 +2049,10 @@ article .post-mainpart > .entry-content {
 
 
 body.onecol-blog .site-content .blog-columns .post {
-	border-bottom: 1px solid #E0E0E0;
-	padding-top: 0px;
+	border-top: 2px dashed #4d2200;
+	padding-top: 10px;
 	padding-bottom: 0px;
-	margin-bottom: 32px;	
+	margin-bottom: 0px;	
 }
 /*
 .search-results .site-content .entry-nothumb .dateonimg,
@@ -2079,7 +2081,9 @@ body.onecol-blog .site-content .blog-columns .post {
 
 .entry-thumbnail img {
 	display: block;
-	margin: 0 auto 10px;
+	margin: 10px auto;
+	border: 2px solid #4d2200;
+    border-radius: 5px;
 }
 
 .single .entry-thumbnail img {
@@ -2087,16 +2091,45 @@ body.onecol-blog .site-content .blog-columns .post {
 }
 
 .entry-header {
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 .blog-columns .entry-header {
-	margin-bottom: 16px;
+	display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 3px;
+    line-height: 16px;
+    cursor: pointer;
+    position: relative;
+    font-family: inherit;
+    overflow: visible;
+    padding: 16px 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    left: auto;
+    color: #ffffff;
+    border: 0px solid #c8bfc6;
+    box-shadow: 2px 2px #a54e00;
+    background: #4d2200;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
 }
+
+.blog-columns .entry-header:hover {
+	
+	box-shadow: none;
+}
+
 
 .entry-title {
 	font-weight: normal;
-	margin: 0 0 5px;
+	margin: 0 5px;
 }
 
 .entry-title a {
@@ -2116,6 +2149,7 @@ body.onecol-blog .site-content .blog-columns .post {
 .entry-meta {
 	clear: both;
 	font-size: 12px;
+	display: none;
 }
 
 .blog-columns .entry-meta {
@@ -4616,7 +4650,7 @@ color: #fff;
 		display: block;
 		float: left;
 		width: 50%;
-		margin-top: 8px;
+		margin-top: 1px;
 	}
 	
 	.site-content .post .post-mainpart {
